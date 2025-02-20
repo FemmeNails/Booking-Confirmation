@@ -1,0 +1,61 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    background-color: rgb(169, 117, 41);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    text-align: center;
+    background-color: rgb(195, 178, 151);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+p {
+    text-align: justify;
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin: 10px auto;
+    width: 80%;
+    font-size: 16px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
+}
+
+.instagram-btn {
+    background-color: #E6A7C2; /* Slightly Darker Pastel Pink */
+    color: #333;
+}
+
+.location-btn {
+    background-color: #91B4E4; /* Slightly Darker Pastel Blue */
+    color: #333;
+}
+
+.button:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.6);
+}
